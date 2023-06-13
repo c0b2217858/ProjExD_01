@@ -35,7 +35,6 @@ def main():
         elif(z< -100):
             y = 0
 
-
         screen.blit(bg_img, [-x, 0])
         screen.blit(bg_img2, [1600-x, 0])
         screen.blit(kk_imgs[y],[300,200])
